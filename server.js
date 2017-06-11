@@ -60,7 +60,7 @@ app.get('/bad', (req, res) => {
 
 app.get('/projects', (req, res) => {
     // res.send('<h1>Hello Expres!</h1>');
-    res.render('portfolio.hbs', {
+    res.render('projects.hbs', {
         pageTitle: 'Projects Page',
         wellcomeMessage: 'Welcome to projects page!'
     });
